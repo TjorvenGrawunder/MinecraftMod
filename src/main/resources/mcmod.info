@@ -1,6 +1,6 @@
 [
 {
-  "modid": "tmgmod",
+  "modid": "tmg",
   "name": "TMG Mod",
   "description": "Example placeholder mod.",
   "version": "${1.0}",
