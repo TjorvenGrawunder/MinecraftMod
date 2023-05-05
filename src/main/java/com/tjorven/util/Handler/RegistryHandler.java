@@ -2,6 +2,7 @@ package com.tjorven.util.Handler;
 
 import com.tjorven.Init.ItemInit;
 import com.tjorven.util.IHasModel;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -24,4 +25,5 @@ public class RegistryHandler {
         }
 
     }
+
 }

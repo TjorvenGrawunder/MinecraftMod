@@ -1,8 +1,11 @@
 package com.tjorven.mod;
 
 import com.tjorven.proxy.CommonProxy;
+import com.tjorven.tabs.TMGTab;
 import com.tjorven.util.References;
+import com.tjorven.util.SmeltingRegistry;
 import net.minecraft.client.Minecraft;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -25,6 +28,8 @@ public class TmgMod {
     @Instance
     public static TmgMod instance;
 
+    public static final CreativeTabs tmgtab = new TMGTab("TMG");
+
     @SidedProxy(clientSide = References.CLIENT, serverSide = References.COMMON)
     public static CommonProxy proxy;
 
@@ -35,7 +40,7 @@ public class TmgMod {
 
     @EventHandler
     public static void init(FMLInitializationEvent event){
-        GameRegistry.addSmelting(new ItemStack(Blocks.DIRT), new ItemStack(Items.DIAMOND), 12.0F);
+        SmeltingRegistry.registerSmelting();
     }
 
     @EventHandler

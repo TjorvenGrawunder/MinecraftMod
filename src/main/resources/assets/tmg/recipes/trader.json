@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "xax",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "tmg:ingot_special"
+    },
+    "a":
+    {
+      "item": "tmg:food_gapple"
+    }
+  },
+  "result":
+  {
+    "item": "tmg:item_trader"
+  }
+}

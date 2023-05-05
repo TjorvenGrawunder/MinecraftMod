@@ -1,1 +1,4 @@
-item.item_test.name = Test Item
+item.ingot_special.name=Special Ingot
+item.food_gapple.name=Green Apple
+item.item_trader.name=Trader Bowl
+itemGroup.TMG=TMG
