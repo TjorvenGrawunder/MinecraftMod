@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2023-05-09 14:12:36 +0200",
+      "beaches": "2023-05-09 14:12:43 +0200",
+      "ocean": "2023-05-09 14:12:49 +0200",
+      "river": "2023-05-09 14:12:54 +0200"
+    },
+    "done": false
+  }
+}
