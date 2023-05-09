@@ -1,4 +1,7 @@
 item.ingot_special.name=Special Ingot
 item.food_gapple.name=Green Apple
 item.item_trader.name=Trader Bowl
+
+tile.ore_special.name=Special Ore
+
 itemGroup.TMG=TMG

@@ -7,6 +7,7 @@ public class ItemTrader extends ItemRaw{
         super(name);
         this.setContainerItem(this);
         this.setMaxStackSize(1);
+
     }
 
 }

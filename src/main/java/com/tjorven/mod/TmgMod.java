@@ -4,6 +4,7 @@ import com.tjorven.proxy.CommonProxy;
 import com.tjorven.tabs.TMGTab;
 import com.tjorven.util.References;
 import com.tjorven.util.SmeltingRegistry;
+import com.tjorven.worldgen.OreGen;
 import net.minecraft.client.Minecraft;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
@@ -40,7 +41,9 @@ public class TmgMod {
 
     @EventHandler
     public static void init(FMLInitializationEvent event){
+
         SmeltingRegistry.registerSmelting();
+        GameRegistry.registerWorldGenerator(new OreGen(), 0);
     }
 
     @EventHandler
