@@ -1,0 +1,13 @@
+{
+  "variants":
+  {
+    "age=0": {"model": "tmg:plant_iron0"},
+    "age=1": {"model": "tmg:plant_iron1"},
+    "age=2": {"model": "tmg:plant_iron2"},
+    "age=3": {"model": "tmg:plant_iron3"},
+    "age=4": {"model": "tmg:plant_iron4"},
+    "age=5": {"model": "tmg:plant_iron5"},
+    "age=6": {"model": "tmg:plant_iron6"},
+    "age=7": {"model": "tmg:plant_iron7"}
+  }
+}

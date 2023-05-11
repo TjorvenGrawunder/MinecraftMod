@@ -21,7 +21,7 @@ public class OreGen implements IWorldGenerator {
                 case -1:
                     break;
                 case 0:
-                    runGenerator(BlockInit.ORE_SPECIAL.getDefaultState(), 2, 1, 2, 12, BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
+                    runGenerator(BlockInit.ORE_SPECIAL.getDefaultState(), 2, 7, 0, 255, BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
                     break;
                 case 1:
                     break;
