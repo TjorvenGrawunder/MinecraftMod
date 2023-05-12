@@ -15,5 +15,5 @@ public class ItemInit {
     public static final Item SPECIAL_INGOT = new ItemRaw("ingot_special");
     public static final Item TRADERS_BOWL = new ItemTrader("item_trader");
     public static final Item GREEN_APPLE = new ItemRaw("food_gapple");
-    public static final Item SEEDS_IRON = new ItemSeeds("seeds_iron");
+    public static final Item SEEDS_IRON = new ItemSeeds("seeds_iron", BlockInit.PLANT_IRON);
 }

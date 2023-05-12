@@ -3,6 +3,7 @@ package com.tjorven.Blocks;
 import com.tjorven.Init.BlockInit;
 import com.tjorven.Init.ItemInit;
 import net.minecraft.block.BlockCrops;
+import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
@@ -21,7 +22,10 @@ public class BlockResourcePlant extends BlockCrops {
 
     Item drop;
     Item seed;
-    private static final AxisAlignedBB[] resourcePlant = new AxisAlignedBB[] {new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.125D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.25D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.35D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.40D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.5D, 1.0D)};
+
+
+    public static final PropertyInteger CROP_AGE = PropertyInteger.create("age", 0, 7);
+    private static final AxisAlignedBB[] resourcePlant = new AxisAlignedBB[] {new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.125D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.25D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.35D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.40D, 1.0D), new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.5D, 1.0D),new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.6D, 1.0D),new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.7D, 1.0D),new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.8D, 1.0D)};
     public BlockResourcePlant(String name, Item drop, Item seed){
         this.drop = drop;
         this.seed = seed;
@@ -52,6 +56,10 @@ public class BlockResourcePlant extends BlockCrops {
     @Override
     protected Item getCrop() {
         return drop;
+    }
+    @Override
+    protected PropertyInteger getAgeProperty() {
+        return CROP_AGE;
     }
 
     @Override
