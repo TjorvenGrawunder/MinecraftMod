@@ -40,7 +40,7 @@ public class BlockResourcePlant extends BlockCrops {
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if(!worldIn.isRemote){
             if(this.isMaxAge(state)){
-                worldIn.spawnEntity(new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(drop, 2)));
+                worldIn.spawnEntity(new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(drop, 1)));
                 worldIn.setBlockState(pos, this.withAge(0));
                 return true;
             }
