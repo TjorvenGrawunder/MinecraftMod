@@ -4,6 +4,7 @@ import com.tjorven.Init.BlockInit;
 import com.tjorven.Init.ItemInit;
 import com.tjorven.mod.TmgMod;
 import com.tjorven.util.IHasModel;
+import com.tjorven.util.PlantEnum;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
@@ -21,9 +22,10 @@ import net.minecraftforge.common.IPlantable;
 public class ItemSeeds extends ItemRaw implements IHasModel, IPlantable {
 
 
-    Block plant;
+    PlantEnum plant;
+    IBlockState blockState;
 
-    public ItemSeeds(String name, Block plant){
+    public ItemSeeds(String name, PlantEnum plant){
         super(name);
         this.plant = plant;
     }
@@ -36,8 +38,9 @@ public class ItemSeeds extends ItemRaw implements IHasModel, IPlantable {
     public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         ItemStack stack = player.getHeldItem(hand);
         IBlockState state = worldIn.getBlockState(pos);
+        calcBlockstate();
         if(facing == EnumFacing.UP && player.canPlayerEdit(pos.offset(facing), facing, stack) && state.getBlock().canSustainPlant(state,worldIn,pos,EnumFacing.UP,this) && worldIn.isAirBlock(pos.up())){
-            worldIn.setBlockState(pos.up(),plant.getDefaultState());
+            worldIn.setBlockState(pos.up(),blockState);
             stack.shrink(1);
             return EnumActionResult.SUCCESS;
         }
@@ -53,6 +56,15 @@ public class ItemSeeds extends ItemRaw implements IHasModel, IPlantable {
 
     @Override
     public IBlockState getPlant(IBlockAccess world, BlockPos pos) {
-        return plant.getDefaultState();
+        calcBlockstate();
+        return blockState;
+    }
+
+    private void calcBlockstate(){
+        switch (plant) {
+            case IRON:
+                blockState = BlockInit.PLANT_IRON.getDefaultState();
+                break;
+        }
     }
 }

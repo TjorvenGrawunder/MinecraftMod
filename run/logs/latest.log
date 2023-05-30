@@ -1,49 +1,48 @@
-[10:20:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[10:20:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[10:20:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[10:20:08] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[10:20:08] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_372, running on Windows 11:amd64:10.0, installed at C:\Users\Tjorv\.jdks\corretto-1.8.0_372\jre
-[10:20:08] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[10:20:08] [main/ERROR] [FML]: Full: C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[10:20:08] [main/ERROR] [FML]: Trimmed: c:/users/tjorv/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[10:20:08] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[10:20:08] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[10:20:09] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[10:20:09] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[10:20:09] [main/INFO] [FML]: Searching C:\Users\Tjorv\IdeaProjects\MinecraftMod\run\.\mods for mods
-[10:20:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[10:20:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[10:20:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[10:20:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[10:20:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[10:20:11] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[10:20:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[10:20:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[10:20:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[10:20:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[10:20:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[10:20:13] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player578
-[10:20:18] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[10:20:18] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[10:20:20] [Client thread/INFO] [FML]: -- System Details --
+[15:16:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:16:52] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:16:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:16:52] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
+[15:16:52] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_372, running on Windows 11:amd64:10.0, installed at C:\Users\Tjorv\.jdks\corretto-1.8.0_372\jre
+[15:16:52] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[15:16:52] [main/ERROR] [FML]: Full: C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[15:16:52] [main/ERROR] [FML]: Trimmed: c:/users/tjorv/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[15:16:52] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:16:52] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[15:16:53] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[15:16:53] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[15:16:53] [main/INFO] [FML]: Searching C:\Users\Tjorv\IdeaProjects\MinecraftMod\run\.\mods for mods
+[15:16:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:16:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:16:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:16:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:16:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:16:55] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:16:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:16:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:16:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:16:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:16:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:16:56] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player171
+[15:16:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:16:59] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[15:17:00] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 11 (amd64) version 10.0
 	Java Version: 1.8.0_372, Amazon.com Inc.
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
-	Memory: 713611152 bytes (680 MB) / 872939520 bytes (832 MB) up to 3722969088 bytes (3550 MB)
+	Memory: 889027200 bytes (847 MB) / 1058537472 bytes (1009 MB) up to 3722969088 bytes (3550 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 27.20.100.9621' Renderer: 'Intel(R) Iris(R) Plus Graphics'
-[10:20:20] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[10:20:20] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[10:20:20] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[10:20:20] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[10:20:21] [Client thread/INFO] [FML]: Searching C:\Users\Tjorv\IdeaProjects\MinecraftMod\run\.\mods for mods
-[10:20:22] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 158269100 nanos
-[10:20:24] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[15:17:00] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
+[15:17:00] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:17:00] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[15:17:00] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[15:17:00] [Client thread/INFO] [FML]: Searching C:\Users\Tjorv\IdeaProjects\MinecraftMod\run\.\mods for mods
+[15:17:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -72,7 +71,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[10:20:24] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+[15:17:01] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -105,7 +104,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+[15:17:01] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -138,7 +137,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[15:17:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -167,7 +166,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[10:20:24] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+[15:17:01] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -200,7 +199,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+[15:17:01] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -233,7 +232,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[15:17:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -262,7 +261,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[10:20:24] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+[15:17:01] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -295,7 +294,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+[15:17:01] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -328,7 +327,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[15:17:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -357,7 +356,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[10:20:24] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+[15:17:01] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -390,7 +389,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+[15:17:01] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -423,7 +422,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[15:17:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -452,7 +451,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[10:20:24] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.8.0-beta4\83b0359d847ee053d745be7ec0d8e9e8a44304b4\slf4j-api-1.8.0-beta4.jar - probably a corrupt zip
+[15:17:01] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Tjorv\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.8.0-beta4\83b0359d847ee053d745be7ec0d8e9e8a44304b4\slf4j-api-1.8.0-beta4.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -485,7 +484,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/WARN] [FML]: Zip file slf4j-api-1.8.0-beta4.jar failed to read properly, it will be ignored
+[15:17:01] [Client thread/WARN] [FML]: Zip file slf4j-api-1.8.0-beta4.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -518,244 +517,137 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[10:20:24] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[10:20:25] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tmg] at CLIENT
-[10:20:25] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tmg] at SERVER
-[10:20:26] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TMG Mod
-[10:20:26] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[10:20:26] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[10:20:26] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[10:20:26] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[10:20:26] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[10:20:26] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[10:20:26] [Client thread/INFO] [FML]: Applying holder lookups
-[10:20:26] [Client thread/INFO] [FML]: Holder lookups applied
-[10:20:26] [Client thread/INFO] [FML]: Applying holder lookups
-[10:20:26] [Client thread/INFO] [FML]: Holder lookups applied
-[10:20:26] [Client thread/INFO] [FML]: Applying holder lookups
-[10:20:26] [Client thread/INFO] [FML]: Holder lookups applied
-[10:20:26] [Client thread/INFO] [FML]: Applying holder lookups
-[10:20:26] [Client thread/INFO] [FML]: Holder lookups applied
-[10:20:26] [Client thread/INFO] [FML]: Injecting itemstacks
-[10:20:26] [Client thread/INFO] [FML]: Itemstack injection complete
-[10:20:28] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[10:20:29] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[10:20:29] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:20:29] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[10:20:29] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[10:20:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[10:20:37] [Client thread/INFO] [FML]: Max texture size: 16384
-[10:20:41] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[10:20:44] [Client thread/INFO] [FML]: Applying holder lookups
-[10:20:44] [Client thread/INFO] [FML]: Holder lookups applied
-[10:20:44] [Client thread/INFO] [FML]: Injecting itemstacks
-[10:20:44] [Client thread/INFO] [FML]: Itemstack injection complete
-[10:20:44] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[10:20:44] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[10:20:44] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[10:20:45] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[10:20:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[10:20:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[10:20:55] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[10:20:55] [Server thread/INFO] [FML]: Applying holder lookups
-[10:20:55] [Server thread/INFO] [FML]: Holder lookups applied
-[10:20:56] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@59b0645f)
-[10:20:56] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[10:20:56] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@59b0645f)
-[10:20:56] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@59b0645f)
-[10:20:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[10:20:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%
-[10:20:58] [Server thread/INFO] [FML]: Unloading dimension -1
-[10:20:58] [Server thread/INFO] [FML]: Unloading dimension 1
-[10:20:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[10:21:00] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[10:21:00] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[10:21:00] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,mcp@9.42,tmg@TMG Mod
-[10:21:00] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[10:21:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[10:21:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player578[local:E:8025478d] logged in with entity id 183 at (-220.92640556768933, 64.0, 210.74582263727123)
-[10:21:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player578 joined the game
-[10:21:02] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[10:21:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[10:21:02] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 9 advancements
-[10:21:29] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NullPointerException
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_372]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_372]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+[15:17:01] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[15:17:02] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tmg] at CLIENT
+[15:17:02] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, tmg] at SERVER
+[15:17:02] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 84972400 nanos
+[15:17:02] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TMG Mod
+[15:17:03] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[15:17:03] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[15:17:03] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:17:03] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:17:03] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:17:03] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:17:03] [Client thread/INFO] [FML]: Applying holder lookups
+[15:17:03] [Client thread/INFO] [FML]: Holder lookups applied
+[15:17:03] [Client thread/INFO] [FML]: Applying holder lookups
+[15:17:03] [Client thread/INFO] [FML]: Holder lookups applied
+[15:17:03] [Client thread/INFO] [FML]: Applying holder lookups
+[15:17:03] [Client thread/INFO] [FML]: Holder lookups applied
+[15:17:03] [Client thread/INFO] [FML]: Applying holder lookups
+[15:17:03] [Client thread/INFO] [FML]: Holder lookups applied
+[15:17:03] [Client thread/INFO] [FML]: Injecting itemstacks
+[15:17:03] [Client thread/INFO] [FML]: Itemstack injection complete
+[15:17:04] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[15:17:05] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[15:17:05] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[15:17:05] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:17:06] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[15:17:06] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[15:17:11] [Client thread/INFO] [FML]: Max texture size: 16384
+[15:17:14] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[15:17:16] [Client thread/INFO] [FML]: Applying holder lookups
+[15:17:16] [Client thread/INFO] [FML]: Holder lookups applied
+[15:17:16] [Client thread/INFO] [FML]: Injecting itemstacks
+[15:17:16] [Client thread/INFO] [FML]: Itemstack injection complete
+[15:17:16] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[15:17:16] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:17:16] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[15:17:17] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[15:17:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[15:17:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[15:17:26] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[15:17:26] [Server thread/INFO] [FML]: Applying holder lookups
+[15:17:26] [Server thread/INFO] [FML]: Holder lookups applied
+[15:17:26] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@19fa1620)
+[15:17:27] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[15:17:27] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@19fa1620)
+[15:17:27] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@19fa1620)
+[15:17:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[15:17:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 85%
+[15:17:28] [Server thread/INFO] [FML]: Unloading dimension -1
+[15:17:28] [Server thread/INFO] [FML]: Unloading dimension 1
+[15:17:28] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[15:17:30] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[15:17:30] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[15:17:30] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,mcp@9.42,tmg@TMG Mod
+[15:17:30] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[15:17:30] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:17:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player171[local:E:b8035cfa] logged in with entity id 236 at (-222.6453320053088, 63.0, 214.13445084166122)
+[15:17:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player171 joined the game
+[15:17:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player171 has made the advancement [Acquire Hardware]
+[15:17:31] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:17:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[15:17:31] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player171 has made the advancement [Acquire Hardware]
+[15:17:31] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 51 advancements
+[15:17:47] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 57 advancements
+[15:18:27] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@67c78093[id=ca560dd3-ebf9-3fc9-b2e6-088534082c81,name=Player171,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:85) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3001) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:132) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_372]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_372]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_372]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_372]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_372]
-Caused by: java.lang.NullPointerException
-	at com.tjorven.Items.ItemSeeds.getPlant(ItemSeeds.java:56) ~[ItemSeeds.class:?]
-	at net.minecraft.block.Block.canSustainPlant(Block.java:1693) ~[Block.class:?]
-	at com.tjorven.Items.ItemSeeds.onItemUse(ItemSeeds.java:39) ~[ItemSeeds.class:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:889) ~[ForgeHooks.class:14.23.5.2859]
-	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:186) ~[ItemStack.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.processRightClickBlock(PlayerInteractionManager.java:481) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processTryUseItemOnBlock(NetHandlerPlayServer.java:741) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:59) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:13) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_372]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_372]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[10:21:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[10:21:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[10:21:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[10:21:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[10:21:30] [Server thread/INFO] [FML]: Unloading dimension 0
-[10:21:30] [Server thread/INFO] [FML]: Applying holder lookups
-[10:21:30] [Server thread/INFO] [FML]: Holder lookups applied
-[10:21:31] [Client thread/FATAL] [net.minecraft.client.Minecraft]: Unreported exception thrown!
-java.lang.NullPointerException: null
-	at com.tjorven.Items.ItemSeeds.getPlant(ItemSeeds.java:56) ~[ItemSeeds.class:?]
-	at net.minecraft.block.Block.canSustainPlant(Block.java:1693) ~[Block.class:?]
-	at com.tjorven.Items.ItemSeeds.onItemUse(ItemSeeds.java:39) ~[ItemSeeds.class:?]
-	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:187) ~[ItemStack.class:?]
-	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClickBlock(PlayerControllerMP.java:467) ~[PlayerControllerMP.class:?]
-	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1579) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2254) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2020) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1808) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1098) ~[Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[10:21:31] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: ---- Minecraft Crash Report ----
-// Who set us up the TNT?
-
-Time: 5/16/23 10:21 AM
-Description: Unexpected error
-
-java.lang.NullPointerException: Unexpected error
-	at com.tjorven.Items.ItemSeeds.getPlant(ItemSeeds.java:56)
-	at net.minecraft.block.Block.canSustainPlant(Block.java:1693)
-	at com.tjorven.Items.ItemSeeds.onItemUse(ItemSeeds.java:39)
-	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:187)
-	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClickBlock(PlayerControllerMP.java:467)
-	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1579)
-	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2254)
-	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2020)
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1808)
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1098)
-	at net.minecraft.client.Minecraft.run(Minecraft.java:398)
-	at net.minecraft.client.main.Main.main(Main.java:118)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.legacydev.Main.start(Main.java:86)
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- Head --
-Thread: Client thread
-Stacktrace:
-	at com.tjorven.Items.ItemSeeds.getPlant(ItemSeeds.java:56)
-	at net.minecraft.block.Block.canSustainPlant(Block.java:1693)
-	at com.tjorven.Items.ItemSeeds.onItemUse(ItemSeeds.java:39)
-	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:187)
-	at net.minecraft.client.multiplayer.PlayerControllerMP.processRightClickBlock(PlayerControllerMP.java:467)
-	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1579)
-	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:2254)
-	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2020)
-
--- Affected level --
-Details:
-	Level name: MpServer
-	All players: 1 total; [EntityPlayerSP['Player578'/183, l='MpServer', x=-222.46, y=63.00, z=215.83]]
-	Chunk stats: MultiplayerChunkCache: 529, 529
-	Level seed: 0
-	Level generator: ID 00 - default, ver 1. Features enabled: false
-	Level generator options: 
-	Level spawn location: World: (-216,64,212), Chunk: (at 8,4,4 in -14,13; contains blocks -224,0,208 to -209,255,223), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
-	Level time: 2635 game time, 2635 day time
-	Level dimension: 0
-	Level storage version: 0x00000 - Unknown?
-	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
-	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
-	Forced entities: 74 total; [EntityCow['Cow'/137, l='MpServer', x=-143.50, y=68.00, z=238.50], EntitySkeleton['Skeleton'/139, l='MpServer', x=-142.51, y=15.00, z=251.24], EntityCreeper['Creeper'/32, l='MpServer', x=-293.47, y=20.00, z=235.79], EntitySpider['Spider'/33, l='MpServer', x=-290.50, y=33.00, z=230.50], EntitySkeleton['Skeleton'/34, l='MpServer', x=-293.53, y=41.00, z=249.27], EntitySkeleton['Skeleton'/37, l='MpServer', x=-272.53, y=30.00, z=154.28], EntityCreeper['Creeper'/38, l='MpServer', x=-277.81, y=28.00, z=154.50], EntitySquid['Squid'/39, l='MpServer', x=-286.01, y=57.02, z=183.27], EntityCreeper['Creeper'/40, l='MpServer', x=-259.22, y=21.00, z=155.57], EntitySkeleton['Skeleton'/41, l='MpServer', x=-266.50, y=26.00, z=174.50], EntityCreeper['Creeper'/42, l='MpServer', x=-271.50, y=35.00, z=167.50], EntityCreeper['Creeper'/43, l='MpServer', x=-272.49, y=39.00, z=175.18], EntityCreeper['Creeper'/44, l='MpServer', x=-270.50, y=35.00, z=169.50], EntityCreeper['Creeper'/45, l='MpServer', x=-267.50, y=37.00, z=225.30], EntityCow['Cow'/46, l='MpServer', x=-257.61, y=70.00, z=213.18], EntityCow['Cow'/47, l='MpServer', x=-255.59, y=70.00, z=210.84], EntityCow['Cow'/48, l='MpServer', x=-252.22, y=71.00, z=218.49], EntityZombie['Zombie'/49, l='MpServer', x=-268.80, y=37.00, z=226.48], EntitySpider['Spider'/50, l='MpServer', x=-268.50, y=41.00, z=233.50], EntityCow['Cow'/51, l='MpServer', x=-257.22, y=69.00, z=225.50], EntityCreeper['Creeper'/52, l='MpServer', x=-269.50, y=38.00, z=253.50], EntitySkeleton['Skeleton'/53, l='MpServer', x=-247.50, y=27.00, z=135.50], EntityZombie['Zombie'/54, l='MpServer', x=-243.51, y=27.00, z=146.24], EntityBat['Bat'/55, l='MpServer', x=-245.25, y=24.64, z=138.46], EntityPlayerSP['Player578'/183, l='MpServer', x=-222.46, y=63.00, z=215.83], EntityBat['Bat'/56, l='MpServer', x=-246.48, y=28.10, z=145.75], EntityCreeper['Creeper'/57, l='MpServer', x=-255.50, y=21.00, z=160.50], EntityCow['Cow'/58, l='MpServer', x=-255.89, y=69.00, z=207.46], EntityCow['Cow'/59, l='MpServer', x=-245.61, y=70.00, z=209.83], EntityItem['item.item.seeds'/60, l='MpServer', x=-245.41, y=63.00, z=256.13], EntityZombie['Zombie'/63, l='MpServer', x=-234.50, y=30.00, z=151.71], EntityZombie['Zombie'/64, l='MpServer', x=-226.80, y=32.00, z=159.50], EntityCow['Cow'/65, l='MpServer', x=-235.44, y=65.00, z=208.37], EntityCow['Cow'/66, l='MpServer', x=-223.52, y=65.00, z=240.61], EntitySkeleton['Skeleton'/67, l='MpServer', x=-231.31, y=14.00, z=278.50], EntitySpider['Spider'/69, l='MpServer', x=-223.50, y=41.00, z=251.50], EntityWitch['Witch'/70, l='MpServer', x=-218.50, y=55.00, z=290.50], EntityCow['Cow'/72, l='MpServer', x=-197.85, y=63.00, z=176.59], EntityCow['Cow'/73, l='MpServer', x=-195.50, y=64.00, z=186.50], EntityCow['Cow'/74, l='MpServer', x=-199.24, y=69.00, z=197.53], EntityCow['Cow'/75, l='MpServer', x=-198.14, y=68.00, z=198.45], EntitySkeleton['Skeleton'/76, l='MpServer', x=-199.50, y=6.00, z=235.50], EntityBat['Bat'/77, l='MpServer', x=-194.14, y=34.12, z=231.60], EntityZombie['Zombie'/78, l='MpServer', x=-203.50, y=64.00, z=258.50], EntityZombie['Zombie'/80, l='MpServer', x=-178.50, y=39.00, z=233.50], EntityItem['item.tile.mushroom'/81, l='MpServer', x=-186.80, y=37.00, z=269.13], EntityItem['item.tile.mushroom'/82, l='MpServer', x=-185.13, y=37.00, z=270.46], EntityZombie['Zombie'/87, l='MpServer', x=-175.80, y=38.00, z=176.50], EntitySkeleton['Skeleton'/88, l='MpServer', x=-175.05, y=38.00, z=176.50], EntityZombie['Zombie'/89, l='MpServer', x=-163.19, y=33.00, z=212.49], EntityZombie['Zombie'/90, l='MpServer', x=-169.25, y=31.00, z=203.46], EntityBat['Bat'/91, l='MpServer', x=-166.25, y=32.10, z=200.43], EntityCreeper['Creeper'/92, l='MpServer', x=-173.50, y=15.00, z=217.50], EntityCreeper['Creeper'/93, l='MpServer', x=-175.50, y=15.00, z=220.50], EntityCreeper['Creeper'/94, l='MpServer', x=-175.50, y=15.00, z=218.50], EntityBat['Bat'/95, l='MpServer', x=-157.28, y=12.09, z=206.16], EntityBat['Bat'/96, l='MpServer', x=-160.54, y=38.64, z=222.45], EntityCreeper['Creeper'/102, l='MpServer', x=-144.50, y=16.00, z=147.50], EntityCreeper['Creeper'/103, l='MpServer', x=-146.50, y=16.00, z=148.50], EntityZombie['Zombie'/104, l='MpServer', x=-144.50, y=16.00, z=146.50], EntityZombie['Zombie'/105, l='MpServer', x=-151.50, y=20.00, z=165.84], EntitySkeleton['Skeleton'/106, l='MpServer', x=-153.50, y=12.00, z=204.50], EntitySkeleton['Skeleton'/107, l='MpServer', x=-147.71, y=13.00, z=207.50], EntityBat['Bat'/108, l='MpServer', x=-154.62, y=14.06, z=204.06], EntityBat['Bat'/109, l='MpServer', x=-147.64, y=13.14, z=207.43], EntityBat['Bat'/110, l='MpServer', x=-150.24, y=41.07, z=200.50], EntityZombie['Zombie'/111, l='MpServer', x=-157.50, y=37.00, z=219.50], EntityBat['Bat'/112, l='MpServer', x=-157.49, y=39.58, z=217.09], EntityCreeper['Creeper'/113, l='MpServer', x=-146.44, y=66.00, z=220.80], EntityCow['Cow'/114, l='MpServer', x=-146.50, y=68.00, z=240.19], EntityCow['Cow'/115, l='MpServer', x=-149.49, y=70.00, z=230.77], EntitySpider['Spider'/116, l='MpServer', x=-146.50, y=23.00, z=249.50], EntityCow['Cow'/117, l='MpServer', x=-148.50, y=67.00, z=242.50], EntityCreeper['Creeper'/127, l='MpServer', x=-142.30, y=55.00, z=152.56]]
-	Retry entities: 0 total; []
-	Server brand: fml,forge
-	Server type: Integrated singleplayer server
-Stacktrace:
-	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:420)
-	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2741)
-	at net.minecraft.client.Minecraft.run(Minecraft.java:427)
-	at net.minecraft.client.main.Main.main(Main.java:118)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.legacydev.Main.start(Main.java:86)
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
-
--- System Details --
-Details:
-	Minecraft Version: 1.12.2
-	Operating System: Windows 11 (amd64) version 10.0
-	Java Version: 1.8.0_372, Amazon.com Inc.
-	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
-	Memory: 1245926728 bytes (1188 MB) / 1507328000 bytes (1437 MB) up to 3722969088 bytes (3550 MB)
-	JVM Flags: 0 total; 
-	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
-	FML: MCP 9.42 Powered by Forge 14.23.5.2859 5 mods loaded, 5 mods active
-	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
-
-	| State  | ID        | Version      | Source                                                             | Signature |
-	|:------ |:--------- |:------------ |:------------------------------------------------------------------ |:--------- |
-	| LCHIJA | minecraft | 1.12.2       | minecraft.jar                                                      | None      |
-	| LCHIJA | mcp       | 9.42         | minecraft.jar                                                      | None      |
-	| LCHIJA | FML       | 8.0.99.99    | forge-1.12.2-14.23.5.2859_mapped_snapshot_20171003-1.12-recomp.jar | None      |
-	| LCHIJA | forge     | 14.23.5.2859 | forge-1.12.2-14.23.5.2859_mapped_snapshot_20171003-1.12-recomp.jar | None      |
-	| LCHIJA | tmg       | TMG Mod      | main                                                               | None      |
-
-	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 27.20.100.9621' Renderer: 'Intel(R) Iris(R) Plus Graphics'
-	Launched Version: ${MC_VERSION}
-	LWJGL: 2.9.4
-	OpenGL: Intel(R) Iris(R) Plus Graphics GL version 4.6.0 - Build 27.20.100.9621, Intel
-	GL Caps: Using GL 1.3 multitexturing.
-Using GL 1.3 texture combiners.
-Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
-Shaders are available because OpenGL 2.1 is supported.
-VBOs are available because OpenGL 1.5 is supported.
-
-	Using VBOs: Yes
-	Is Modded: Definitely; Client brand changed to 'fml,forge'
-	Type: Client (map_client.txt)
-	Resource Packs: 
-	Current Language: English (US)
-	Profiler Position: N/A (disabled)
-	CPU: 8x Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
-[10:21:31] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Tjorv\IdeaProjects\MinecraftMod\run\.\crash-reports\crash-2023-05-16_10.21.31-client.txt
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_372]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_372]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_372]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0_372]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:293) ~[?:1.8.0_372]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_372]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_372]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:1.8.0_372]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367) ~[?:1.8.0_372]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1207) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1046) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1044) ~[?:1.8.0_372]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_372]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1043) ~[?:1.8.0_372]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1572) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1492) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490) ~[?:1.8.0_372]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_372]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0_372]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1489) ~[?:1.8.0_372]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268) ~[?:1.8.0_372]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:130) ~[HttpAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:66) ~[YggdrasilAuthenticationService.class:?]
+	... 19 more
+[15:19:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player171 has made the advancement [Diamonds!]
+[15:19:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player171 has made the advancement [Diamonds!]
+[15:19:24] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 72 advancements
+[15:19:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:19:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[15:19:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[15:19:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[15:19:40] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player171 lost connection: Disconnected
+[15:19:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player171 left the game
+[15:19:40] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[15:19:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[15:19:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[15:19:40] [Server thread/INFO] [FML]: Unloading dimension 0
+[15:19:41] [Server thread/INFO] [FML]: Applying holder lookups
+[15:19:41] [Server thread/INFO] [FML]: Holder lookups applied
+[15:19:42] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[15:19:42] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[15:19:42] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
