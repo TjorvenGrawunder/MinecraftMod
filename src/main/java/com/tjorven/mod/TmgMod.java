@@ -2,6 +2,7 @@ package com.tjorven.mod;
 
 import com.tjorven.proxy.CommonProxy;
 import com.tjorven.tabs.TMGTab;
+import com.tjorven.util.Handler.RegistryHandler;
 import com.tjorven.util.References;
 import com.tjorven.util.SmeltingRegistry;
 import com.tjorven.worldgen.OreGen;
@@ -36,14 +37,14 @@ public class TmgMod {
 
     @EventHandler
     public static void preInit(FMLPreInitializationEvent event){
-
+        RegistryHandler.preInitRegistries();
     }
 
     @EventHandler
     public static void init(FMLInitializationEvent event){
 
         SmeltingRegistry.registerSmelting();
-        GameRegistry.registerWorldGenerator(new OreGen(), 0);
+
     }
 
     @EventHandler

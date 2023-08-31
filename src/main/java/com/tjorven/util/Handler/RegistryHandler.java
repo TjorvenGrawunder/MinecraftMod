@@ -1,8 +1,10 @@
 package com.tjorven.util.Handler;
 
 import com.tjorven.Init.BlockInit;
+import com.tjorven.Init.EntityInit;
 import com.tjorven.Init.ItemInit;
 import com.tjorven.util.IHasModel;
+import com.tjorven.worldgen.OreGen;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -10,6 +12,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod.EventBusSubscriber
 public class RegistryHandler {
@@ -35,6 +38,11 @@ public class RegistryHandler {
             }
         }
 
+    }
+    public static void preInitRegistries(){
+        GameRegistry.registerWorldGenerator(new OreGen(), 0);
+        EntityInit.registerEntities();
+        RenderHandler.registerEntityRenders();
     }
 
 }
