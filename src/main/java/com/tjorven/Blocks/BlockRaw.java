@@ -10,6 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
 public class BlockRaw extends Block implements IHasModel {
+
     public BlockRaw(String name, Material material){
         super(material);
         this.setUnlocalizedName(name);

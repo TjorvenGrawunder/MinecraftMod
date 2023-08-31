@@ -26,5 +26,30 @@
       <option name="name" value="maven" />
       <option name="url" value="https://maven.minecraftforge.net/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="CurseForge" />
+      <option name="name" value="CurseForge" />
+      <option name="url" value="https://minecraft.curseforge.com/api/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://chickenbones.net/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="JEI Maven" />
+      <option name="name" value="JEI Maven" />
+      <option name="url" value="http://dvs1.progwml6.com/files/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="CoFH Maven" />
+      <option name="name" value="CoFH Maven" />
+      <option name="url" value="https://maven.covers1624.net" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="BuildCraft" />
+      <option name="name" value="BuildCraft" />
+      <option name="url" value="https://mod-buildcraft.com/maven" />
+    </remote-repository>
   </component>
 </project>
