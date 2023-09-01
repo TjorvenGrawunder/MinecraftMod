@@ -11,7 +11,7 @@
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="mappingFile" value="G:\MinecraftMod\build\createMcpToSrg\output.tsrg" />
+    <option name="mappingFile" value="C:\Users\Tjorv\IdeaProjects\MinecraftMod\build\createMcpToSrg\output.tsrg" />
     <option name="mcpVersion" value="snapshot_20171003-1.12" />
     <option name="minecraftVersion" value="1.12.2" />
     <option name="platformVersion" value="14.23.5.2859" />

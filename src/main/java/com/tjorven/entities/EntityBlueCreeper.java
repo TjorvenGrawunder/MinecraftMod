@@ -1,16 +1,18 @@
 package com.tjorven.entities;
 
+import com.tjorven.entities.base.EntityAbstractCreeper;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 
 
-public class EntityBlueCreeper extends EntityCreeper {
-    private int explosionRadius = 5;
-    boolean ignited = false;
+public class EntityBlueCreeper extends EntityAbstractCreeper {
+    private int explosionRadius = 10;
+
     public EntityBlueCreeper(World worldIn) {
         super(worldIn);
+        this.setExplosionRadius(explosionRadius);
     }
 
     @Override
@@ -28,17 +30,4 @@ public class EntityBlueCreeper extends EntityCreeper {
         return super.getDeathSound();
     }
 
-    @Override
-    public void onUpdate() {
-        if(super.hasIgnited() && !ignited){
-            ignited = true;
-            super.onUpdate();
-            boolean flag = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(this.world, this);
-            float f = this.getPowered() ? 2.0F : 1.0F;
-            this.world.createExplosion(this, this.posX, this.posY, this.posZ, (float)this.explosionRadius * f, flag);
-        }else {
-            super.onUpdate();
-        }
-
-    }
 }
