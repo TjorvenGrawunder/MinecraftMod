@@ -1,5 +1,7 @@
 package com.tjorven.entities.base;
 
+import com.tjorven.util.types.CreeperTypeEnum;
+import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityAreaEffectCloud;
 import net.minecraft.entity.EntityLiving;
@@ -10,6 +12,7 @@ import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.entity.passive.EntityOcelot;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
@@ -24,6 +27,9 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.datafix.DataFixer;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
 import net.minecraftforge.fml.relauncher.Side;
@@ -31,6 +37,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nullable;
 import java.util.Collection;
+import java.util.List;
 
 public abstract class EntityAbstractCreeper extends EntityCreeper {
     private static final DataParameter<Integer> STATE = EntityDataManager.<Integer>createKey(EntityCreeper.class, DataSerializers.VARINT);
@@ -41,6 +48,8 @@ public abstract class EntityAbstractCreeper extends EntityCreeper {
     private int fuseTime = 30;
     private int explosionRadius = 3;
     private int droppedSkulls;
+    private Explosion explosion;
+    private CreeperTypeEnum type;
 
     public EntityAbstractCreeper(World worldIn)
     {
@@ -48,6 +57,11 @@ public abstract class EntityAbstractCreeper extends EntityCreeper {
         this.setSize(0.6F, 1.7F);
     }
 
+    public EntityAbstractCreeper(World worldIn, CreeperTypeEnum type)
+    {
+        this(worldIn);
+        this.type = type;
+    }
     protected void initEntityAI()
     {
         this.tasks.addTask(1, new EntityAISwimming(this));
@@ -262,7 +276,20 @@ public abstract class EntityAbstractCreeper extends EntityCreeper {
             boolean flag = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(this.world, this);
             float f = this.getPowered() ? 2.0F : 1.0F;
             this.dead = true;
-            this.world.createExplosion(this, this.posX, this.posY, this.posZ, (float)this.explosionRadius * f, flag);
+            explosion = this.world.createExplosion(this, this.posX, this.posY, this.posZ, (float)this.explosionRadius * f, flag);
+
+            List<BlockPos> affectedBlocks = explosion.getAffectedBlockPositions();
+            Vec3d center = explosion.getPosition();
+            if(type == CreeperTypeEnum.WATER){
+
+                // Durchlaufe alle Blöcke in einem Bereich um das Explosionszentrum herum
+                for (BlockPos pos : affectedBlocks) {
+                    if(pos.getY() < center.y){
+                        world.setBlockState(pos, Blocks.WATER.getDefaultState());
+                    }
+
+                }
+            }
             this.setDead();
             this.spawnLingeringCloud();
         }

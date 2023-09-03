@@ -6,7 +6,7 @@ item.seeds_iron.name=Iron Seeds
 tile.ore_special.name=Special Ore
 tile.plant_iron.name=Iron Plant
 
-entity.blue_creeper.name=Blue Creeper
+entity.water_creeper.name=Water Creeper
 
 
 

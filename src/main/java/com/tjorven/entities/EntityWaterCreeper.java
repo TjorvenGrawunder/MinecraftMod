@@ -1,17 +1,17 @@
 package com.tjorven.entities;
 
 import com.tjorven.entities.base.EntityAbstractCreeper;
-import net.minecraft.entity.monster.EntityCreeper;
+import com.tjorven.util.types.CreeperTypeEnum;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 
 
-public class EntityBlueCreeper extends EntityAbstractCreeper {
+public class EntityWaterCreeper extends EntityAbstractCreeper {
     private int explosionRadius = 10;
 
-    public EntityBlueCreeper(World worldIn) {
-        super(worldIn);
+    public EntityWaterCreeper(World worldIn) {
+        super(worldIn, CreeperTypeEnum.WATER);
         this.setExplosionRadius(explosionRadius);
     }
 

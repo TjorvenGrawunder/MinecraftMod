@@ -1,14 +1,11 @@
 package com.tjorven.Items;
 
 import com.tjorven.Init.BlockInit;
-import com.tjorven.Init.ItemInit;
 import com.tjorven.mod.TmgMod;
 import com.tjorven.util.IHasModel;
-import com.tjorven.util.PlantEnum;
-import net.minecraft.block.Block;
+import com.tjorven.util.types.PlantTypeEnum;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
@@ -22,10 +19,10 @@ import net.minecraftforge.common.IPlantable;
 public class ItemSeeds extends ItemRaw implements IHasModel, IPlantable {
 
 
-    PlantEnum plant;
+    PlantTypeEnum plant;
     IBlockState blockState;
 
-    public ItemSeeds(String name, PlantEnum plant){
+    public ItemSeeds(String name, PlantTypeEnum plant){
         super(name);
         this.plant = plant;
     }

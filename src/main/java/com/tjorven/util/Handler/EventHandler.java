@@ -1,6 +1,6 @@
 package com.tjorven.util.Handler;
 
-import com.tjorven.entities.EntityBlueCreeper;
+import com.tjorven.entities.EntityWaterCreeper;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -15,7 +15,7 @@ public class EventHandler {
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
     public static void onLivingDrops(LivingDropsEvent event) {
-        if (event.getEntity() instanceof EntityBlueCreeper) {
+        if (event.getEntity() instanceof EntityWaterCreeper) {
             event.getDrops().clear();
             EntityItem diamondItem = new EntityItem(event.getEntity().world, event.getEntity().posX, event.getEntity().posY, event.getEntity().posZ, new ItemStack(Items.DIAMOND, 5));
             event.getDrops().add(diamondItem);

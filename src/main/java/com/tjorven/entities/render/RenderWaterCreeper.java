@@ -1,22 +1,18 @@
 package com.tjorven.entities.render;
 
-import com.tjorven.entities.EntityBlueCreeper;
 import com.tjorven.util.References;
-import net.minecraft.client.model.ModelBase;
-import net.minecraft.client.model.ModelCreeper;
 import net.minecraft.client.renderer.entity.RenderCreeper;
-import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.util.ResourceLocation;
 
 
-public class RenderBlueCreeper extends RenderCreeper {
+public class RenderWaterCreeper extends RenderCreeper {
 
-    public static final ResourceLocation TEXTURE = new ResourceLocation(References.MODID + ":textures/entity/blue_creeper.png");
+    public static final ResourceLocation TEXTURE = new ResourceLocation(References.MODID + ":textures/entity/water_creeper.png");
 
 
-    public RenderBlueCreeper(RenderManager renderManagerIn) {
+    public RenderWaterCreeper(RenderManager renderManagerIn) {
         super(renderManagerIn);
     }
 
