@@ -7,5 +7,6 @@ public class References {
     public static final String CLIENT = "com.tjorven.proxy.ClientProxy";
     public static final String COMMON = "com.tjorven.proxy.CommonProxy";
 
-    public static final int ENTITY_BLUE_CREEPER = 120;
+    public static final int ENTITY_WATER_CREEPER = 120;
+    public static final int ENTITY_FIRE_CREEPER = 121;
 }

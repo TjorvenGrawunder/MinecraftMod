@@ -281,17 +281,41 @@ public abstract class EntityAbstractCreeper extends EntityCreeper {
             List<BlockPos> affectedBlocks = explosion.getAffectedBlockPositions();
             Vec3d center = explosion.getPosition();
             if(type == CreeperTypeEnum.WATER){
-
-                // Durchlaufe alle Blöcke in einem Bereich um das Explosionszentrum herum
-                for (BlockPos pos : affectedBlocks) {
-                    if(pos.getY() < center.y){
-                        world.setBlockState(pos, Blocks.WATER.getDefaultState());
-                    }
-
-                }
+                spawnWater(affectedBlocks, center);
+            } else if (type == CreeperTypeEnum.FIRE) {
+                spawnFire(affectedBlocks);
             }
             this.setDead();
             this.spawnLingeringCloud();
+        }
+    }
+
+    private void spawnWater(List<BlockPos> affectedBlocks, Vec3d center){
+        for (BlockPos pos : affectedBlocks) {
+            if(pos.getY() < center.y){
+                world.setBlockState(pos, Blocks.WATER.getDefaultState());
+            }
+        }
+    }
+
+    private void spawnFire(List<BlockPos> affectedBlocks){
+        boolean[] placeBlocks = new boolean[affectedBlocks.size()];
+        int index = 0;
+        for (BlockPos pos : affectedBlocks){
+            BlockPos below = pos.down();
+            if(world.getBlockState(pos) == Blocks.AIR.getDefaultState() && world.getBlockState(below) != Blocks.AIR.getDefaultState()){
+                placeBlocks[index] = true;
+            }
+            index++;
+        }
+        for(int i = 0; i < affectedBlocks.size(); i++){
+            BlockPos pos = affectedBlocks.get(i);
+            BlockPos below = pos.down();
+            if(placeBlocks[i]){
+                world.setBlockState(below, Blocks.NETHERRACK.getDefaultState());
+                world.setBlockState(pos, Blocks.FIRE.getDefaultState());
+            }
+
         }
     }
 

@@ -7,6 +7,7 @@ tile.ore_special.name=Special Ore
 tile.plant_iron.name=Iron Plant
 
 entity.water_creeper.name=Water Creeper
+entity.fire_creeper.name=Fire Creeper
 
 
 
