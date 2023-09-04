@@ -1,4 +1,4 @@
-package com.tjorven.worldgen;
+package com.tjorven.world.gen;
 
 import com.google.common.base.Predicate;
 import com.tjorven.Init.BlockInit;
