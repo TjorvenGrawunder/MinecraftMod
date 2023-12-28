@@ -319,6 +319,10 @@ public abstract class EntityAbstractCreeper extends EntityCreeper {
         }
     }
 
+    private void test(){
+        this.setCustomNameTag("Justin der Huso!!");
+    }
+
     private void spawnLingeringCloud()
     {
         Collection<PotionEffect> collection = this.getActivePotionEffects();

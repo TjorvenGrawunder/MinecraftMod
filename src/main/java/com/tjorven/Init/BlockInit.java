@@ -14,5 +14,7 @@ public class BlockInit {
 
     public static final Block ORE_SPECIAL = new BlockRaw("ore_special", Material.IRON);
     public static final Block PLANT_IRON = new BlockResourcePlant("plant_iron", Items.IRON_NUGGET, ItemInit.SEEDS_IRON);
+    public static final Block CREEPER_DIRT = new BlockRaw("creeper_dirt", Material.GRASS);
+    public static final Block CREEPER_GRASS = new BlockRaw("creeper_grass", Material.GRASS);
 
 }

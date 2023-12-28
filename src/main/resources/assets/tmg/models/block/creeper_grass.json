@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass",
+  "textures": {
+    "particle": "blocks/dirt",
+    "bottom": "tmg:blocks/creeper_dirt",
+    "top": "tmg:blocks/creeper_grass_top",
+    "side": "tmg:blocks/creeper_grass_side",
+    "overlay": "tmg:blocks/creeper_grass_side"
+  }
+}

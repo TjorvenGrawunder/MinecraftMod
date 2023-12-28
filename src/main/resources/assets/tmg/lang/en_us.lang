@@ -5,6 +5,8 @@ item.seeds_iron.name=Iron Seeds
 
 tile.ore_special.name=Special Ore
 tile.plant_iron.name=Iron Plant
+tile.creeper_dirt.name=Creeper Dirt
+tile.creeper_grass.name=Creeper Grass
 
 entity.water_creeper.name=Water Creeper
 entity.fire_creeper.name=Fire Creeper
